@@ -4,21 +4,21 @@ Step-by-Step Tasks for Building the Note Taker Application
 
 ## 1. Set Up Your Node.js Environment
 
-    Install Node.js: Ensure Node.js is installed on your machine. You can download it from nodejs.org.
-    Initialize a New Node Project: Run npm init -y in your project directory to create a package.json file.
-    Install Express.js: Run npm install express to add Express to your project.
+    👾 Install Node.js: Ensure Node.js is installed on your machine. You can download it from nodejs.org. 
+    👾 Initialize a New Node Project: Run npm init -y in your project directory to create a package.json file.
+    👾 Install Express.js: Run npm install express to add Express to your project.
 
 ## 2. Create the Express Server
 
-    Set Up Server File: Create a file named server.js.
-    Import Express: Add const express = require('express'); at the top of your server.js.
-    Initialize Express: Add const app = express(); to create your app object.
-    Set Port: Define a port number with const PORT = process.env.PORT || 3000;.
-    Start Server: Add app.listen(PORT, () => console.log(Server running on port ${PORT})); to start your server.
+    👾 Set Up Server File: Create a file named server.js.
+    👾 Import Express: Add const express = require('express'); at the top of your server.js.
+    👾 Initialize Express: Add const app = express(); to create your app object.
+    👾 Set Port: Define a port number with const PORT = process.env.PORT || 3000;.
+    👾 Start Server: Add app.listen(PORT, () => console.log(Server running on port ${PORT})); to start your server.
 
 ## 3. Middlewares
 
-    Body Parser: Add app.use(express.json()); and app.use(express.urlencoded({ extended: true })); to handle JSON and URL-encoded form data.
+    👾 Body Parser: Add app.use(express.json()); and app.use(express.urlencoded({ extended: true })); to handle JSON and URL-encoded form data.
 
 ## 4. Set Up Routes
 
@@ -39,8 +39,8 @@ Step-by-Step Tasks for Building the Note Taker Application
 
 ## 6. Unique ID for Notes
 
-    Install UUID: Run npm install uuid to add a package that can generate unique IDs.
-    Use UUID: Import it in your server file and use it when saving a new note to assign a unique ID.
+    ✔ Install UUID: Run npm install uuid to add a package that can generate unique IDs.
+    ✔ Use UUID: Import it in your server file and use it when saving a new note to assign a unique ID.
 
 ## 7. Bonus: Implement DELETE Route
 
