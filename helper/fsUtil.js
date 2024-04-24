@@ -6,7 +6,7 @@ const readFromFile = util.promisify(fs.readFile);
 
 const writeToFile = (destination, content) =>
     fs.writeFile(destination, JSON.stringify(content, null, 4), (err) =>
-    err ? console.err(err) : console.info(`\n Useless Data written at ${destination}`)
+    err ? console.err(err) : console.info(`\n (>⊙.◎)> Useless Data written at ${destination}`)
 );
 
 const readAndAppend = (content, file) => {
@@ -20,3 +20,7 @@ const readAndAppend = (content, file) => {
         }
     });
 };
+
+
+module.exports = {readFromFile, writeToFile,readAndAppend}
+

@@ -23,24 +23,24 @@ Step-by-Step Tasks for Building the Note Taker Application
 ## 4. Set Up Routes
 
     HTML Routes:
-        Notes Page: Add app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/notes.html')));.
-        Catch-all Route: Add app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/public/index.html')));.
+        👾Notes Page: Add app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, '/public/notes.html')));.
+        👾Catch-all Route: Add app.get('*', (req, res) => res.sendFile(path.join(__dirname, '/public/index.html')));.
 
     API Routes:
-        GET Notes: Add a route to fetch notes: app.get('/api/notes', (req, res) => {/* code to read db.json and return data as JSON */});.
-        POST Notes: Add a route to create a new note: app.post('/api/notes', (req, res) => {/* code to save new note to db.json */});.
+        👾GET Notes: Add a route to fetch notes: app.get('/api/notes', (req, res) => {/* code to read db.json   and return data as JSON */});.
+        👾POST Notes: Add a route to create a new note: app.post('/api/notes', (req, res) => {/* code to save new note to db.json */});. -->
 
 ## 5. Data Management
 
     Read and Write to JSON File:
-        Use Node's fs module to handle file operations.
-        Reading: Use fs.readFile to read the db.json file when fetching notes.
-        Writing: Use fs.writeFile to update db.json when saving new notes.
+        👾Use Node's fs module to handle file operations.
+        👾Reading: Use fs.readFile to read the db.json file when fetching notes.
+        👾Writing: Use fs.writeFile to update db.json when saving new notes.
 
 ## 6. Unique ID for Notes
 
-    ✔ Install UUID: Run npm install uuid to add a package that can generate unique IDs.
-    ✔ Use UUID: Import it in your server file and use it when saving a new note to assign a unique ID.
+    👾 Setup UUID: Add uuid file that can generate unique IDs.
+    👾 Use UUID: Import it in your server file and use it when saving a new note to assign a unique ID.
 
 ## 7. Bonus: Implement DELETE Route
 
@@ -48,7 +48,7 @@ Step-by-Step Tasks for Building the Note Taker Application
 
 ## 8. Static Files
 
-    Serve Static Files: Use app.use(express.static('public')); to serve the static files located in the public directory.
+    👾Serve Static Files: Use app.use(express.static('public')); to serve the static files located in the public directory.
 
 ## 9. Deploy to Render
 
