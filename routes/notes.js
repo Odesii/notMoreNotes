@@ -9,11 +9,12 @@ notes.get('/', (req, res) =>{
 });
 
 
+
 notes.post('/', (req, res) =>{
     console.info(`${req.method} (⊙.⊙(☉̃ₒ☉)⊙.⊙) received request to add note`);
 
     const {title, text} = req.body
-    if(req.body){
+    if(req.body && req.body.title && req.body.text){
         const newNote = {
             title,
             text,
