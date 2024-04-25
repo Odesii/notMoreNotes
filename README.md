@@ -27,7 +27,7 @@ Want to inflict this app upon your system? Fine. Here’s how you can set up thi
 ### Live link
 [SEE_IT](https://notmorenotes.onrender.com/)
 ### Screen Shot
-![screenshot](https://imgur.com/FbmJojy)
+![screenshot](https://imgur.com/qozrjjT.gif)
 ## Usage
 
 Once you've subjected your system to this app:
