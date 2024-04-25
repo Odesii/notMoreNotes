@@ -20,12 +20,14 @@ It's sturdy, reliable, and honestly, it's just here to ensure that your notes su
 Want to inflict this app upon your system? Fine. Here’s how you can set up this monument to tedium:
 
    - Clone this repository. (Why you'd want to is beyond me.)
-     - git clone https://github.com/yourusername/notMoreNotes.git
+     - git clone https://github.com/Odesii/notMoreNotes.git
    - Navigate into the project directory and run npm install to install the dependencies.(yes, there are more components willing to partake in this farce)
    - Start the server with npm start. It will dutifully come to life, ready to serve no one of importance.
 
 ### Live link
 [SEE_IT](https://notmorenotes.onrender.com/)
+### Screen Shot
+![screenshot](https://imgur.com/FbmJojy)
 ## Usage
 
 Once you've subjected your system to this app:
